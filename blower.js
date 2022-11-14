@@ -1,4 +1,4 @@
-window.alert("Please turn your volume up for the best results.");
+
 
 var c = new AudioContext, oscillator;
 
@@ -17,6 +17,7 @@ var setTone = function (val) {
 
 function blow(){
   window.location.replace("blower.html");
+	window.alert("Please turn your volume up for the best results.");
 }
 
 
